@@ -1,0 +1,12 @@
+{
+  "total_rows": 9117639,
+  "total_instances": 37402,
+  "fail_instances": 2103,
+  "finish_instances": 35299,
+  "ts_len_fail_median": 267.0,
+  "ts_len_finish_median": 92.0,
+  "requested_cpu_null_pct": 0.0,
+  "requested_mem_null_pct": 0.0,
+  "cpu_burst_fail_median": 0.07019,
+  "mem_burst_fail_median": 0.00183
+}

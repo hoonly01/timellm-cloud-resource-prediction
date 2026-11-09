@@ -1,0 +1,41 @@
+{
+  "n_windows": 86712,
+  "correlations": {
+    "input_last_vs_target_first": {
+      "cpu_usage": 0.8804550643461395,
+      "max_cpu_usage": 0.7326930686701466,
+      "mem_usage": 0.9557312552407219,
+      "max_mem_usage": 0.9546040233519438,
+      "page_cache_memory": 0.9088388568976042,
+      "assigned_mem": 0.9961784636250965,
+      "cpu_pressure": 0.9672152386494001,
+      "mem_pressure": 0.9690893549008065,
+      "cpu_burst": 0.6407582357159669,
+      "mem_burst": 0.5470638358545663
+    },
+    "input_mean_vs_target_mean": {
+      "cpu_usage": 0.9429022592732116,
+      "max_cpu_usage": 0.9358040481973295,
+      "mem_usage": 0.9744180488722974,
+      "max_mem_usage": 0.9745587200945327,
+      "page_cache_memory": 0.9590846251436138,
+      "assigned_mem": 0.9900382808470659,
+      "cpu_pressure": 0.9713845296971759,
+      "mem_pressure": 0.9880480510392513,
+      "cpu_burst": 0.9235253634982491,
+      "mem_burst": 0.9640830898254955
+    },
+    "input_trend_vs_target_trend": {
+      "cpu_usage": -0.18370805702294896,
+      "max_cpu_usage": -0.136965266691313,
+      "mem_usage": -0.12903122079256166,
+      "max_mem_usage": -0.13221549324934126,
+      "page_cache_memory": 0.24065341094491977,
+      "assigned_mem": -0.13647415481042302,
+      "cpu_pressure": -0.1910949896811919,
+      "mem_pressure": -0.10278848553498013,
+      "cpu_burst": -0.11765439053837748,
+      "mem_burst": -0.04517994449974568
+    }
+  }
+}

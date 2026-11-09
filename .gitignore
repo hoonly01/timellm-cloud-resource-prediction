@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.pytest_cache/
+
+# Data and artifacts (regenerate with time-llm-modified/pipeline/)
+time-llm-modified/pipeline/data/
+time-llm-modified/pipeline/processed/*.npz
+time-llm-modified/pipeline/rag_db/
+time-llm-modified/pipeline/eda/output/**/*.png
+time-llm-modified/pipeline/rag_viz/
+time-llm-modified/checkpoints/
+time-llm-modified/logs/
+*.pt
+*.pth
+*.out
+
+# OS / IDE / agent tooling
+.DS_Store
+.idea/
+.vscode/
+.omc/
+.claude/

@@ -1,0 +1,23 @@
+[project]
+name = "timellm-cloud-resource-prediction"
+version = "0.1.0"
+description = "Cloud resource time series forecasting via Time-LLM with retrieval-conditioned Prompt-as-Prefix"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "scikit-learn>=1.4",
+    "scipy>=1.12",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "faiss-cpu>=1.8",
+    "torch>=2.2",
+    "transformers>=4.38",
+    "accelerate>=0.27",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+]

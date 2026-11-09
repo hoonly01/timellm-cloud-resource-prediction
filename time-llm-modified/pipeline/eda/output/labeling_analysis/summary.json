@@ -1,0 +1,60 @@
+{
+  "data_quality": {
+    "duplicate_rows": 0,
+    "non_300s_gap_pct": 3.471
+  },
+  "burst_threshold": {
+    "recommended_k": 2.0,
+    "overall_burst_pct": 81.14,
+    "fail_burst_pct": 81.33,
+    "finish_burst_pct": 81.12
+  },
+  "slope_thresholds": {
+    "normal_rising_gt": 4e-07,
+    "normal_stable_lt": -4.16e-05
+  },
+  "window_configs": {
+    "seq32/pred16/stride16": {
+      "fail_windows": 55165,
+      "finish_windows": 423378,
+      "usable_fail_inst": 2103,
+      "usable_finish_inst": 35299
+    },
+    "seq32/pred32/stride16": {
+      "fail_windows": 53062,
+      "finish_windows": 388079,
+      "usable_fail_inst": 2103,
+      "usable_finish_inst": 35299
+    },
+    "seq64/pred32/stride32": {
+      "fail_windows": 24946,
+      "finish_windows": 170032,
+      "usable_fail_inst": 1597,
+      "usable_finish_inst": 16954
+    },
+    "seq96/pred32/stride32": {
+      "fail_windows": 23349,
+      "finish_windows": 153078,
+      "usable_fail_inst": 1425,
+      "usable_finish_inst": 10966
+    }
+  },
+  "rag_db": {
+    "5class_distribution": {
+      "burst": 34949,
+      "failure-sudden": 2102,
+      "normal-stable": 347,
+      "normal-rising": 3,
+      "failure-gradual": 1
+    },
+    "rag_windows_by_class": {
+      "burst": 39172,
+      "failure-sudden": 2289,
+      "normal-stable": 196
+    },
+    "total_rag_windows": 41657
+  },
+  "effective_lookback_lag": null,
+  "max_mem_usage_null_pct": 4.09,
+  "null_treatment": "fillna(mem_usage)"
+}

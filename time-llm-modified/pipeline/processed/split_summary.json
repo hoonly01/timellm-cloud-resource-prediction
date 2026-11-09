@@ -1,0 +1,33 @@
+{
+  "seq_len": 32,
+  "pred_len": 32,
+  "stride": 32,
+  "n_features": 10,
+  "features": [
+    "cpu_usage",
+    "max_cpu_usage",
+    "mem_usage",
+    "max_mem_usage",
+    "page_cache_memory",
+    "assigned_mem",
+    "cpu_pressure",
+    "mem_pressure",
+    "cpu_burst",
+    "mem_burst"
+  ],
+  "burst_threshold": 0.1,
+  "slope_rising_threshold": 4e-07,
+  "windows": {
+    "train": 86712,
+    "val": 28917,
+    "test": 28181,
+    "rag": 47525
+  },
+  "rag_class_distribution": {
+    "normal-stable": 15067,
+    "normal-rising": 2588,
+    "burst": 23960,
+    "failure-gradual": 3254,
+    "failure-sudden": 2656
+  }
+}
